@@ -1,6 +1,6 @@
 require 'bundler'
 require 'sinatra'
-require './assets'
+#require './assets'
 require 'haml'
 require 'sass'
 
