@@ -27,3 +27,10 @@ end
 get '/tool' do
 	erb :tools
 end
+
+# 404 Error!
+# symbols can't start with numbers SO USE QUOTES!
+# :layout => bool OR :layout => :custom_layout (any name in views/ folder)
+not_found do
+  erb :'404', :layout => false
+end
